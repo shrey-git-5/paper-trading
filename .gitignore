@@ -1,0 +1,35 @@
+# Runtime data and local account storage
+**/data/
+**/app-data/
+**/users/
+*.sqlite*
+*.db
+*.db-*
+
+# Credentials and private configuration
+.env
+.env.*
+!.env.example
+**/secrets.json
+**/auth-key.json
+**/session.key
+**/gmail-sender.json
+**/angel.json
+**/account.json
+**/demo-account.json
+**/client_secret*.json
+**/credentials*.json
+**/token*.json
+**/*service-account*.json
+*.pem
+*.key
+
+# Local backups and generated files
+.ui-backups/
+.account-backups/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+*.log
